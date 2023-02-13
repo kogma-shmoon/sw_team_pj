@@ -11,7 +11,7 @@ const crypto = require("crypto");
 router.use(express.json());
 router.use(express.urlencoded({ extended: false }));
 
-process.setMaxListeners(0);
+process.setMaxListeners(0); // 이벤트 핸들러 갯수 제한 설정 (0 = 무한대)
 
 router.post("/", (req, res) => {
   //변수 설정

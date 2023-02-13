@@ -130,7 +130,7 @@ function WritePage() {
   const onSaveButtonHandler = () => {
     //임시 post 함수
     axios
-      .post("http://localhost:3000/members/test/write", {
+      .post("/members/test/write", {
         date: dateToString(startDate),
         title: title,
         content: content,
