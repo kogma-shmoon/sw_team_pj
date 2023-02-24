@@ -68,6 +68,11 @@ const DiaryBack = styled.div`
     100% 0,
     0 0;
 
+  /* 폰트 기본체 -> 거친둘기마요체 (눈누 무료 폰트) */
+  font-family: "Dovemayo";
+  font-size: x-large;
+
+  white-space: pre-line;
 `;
 
 // DiaryBack 내부에 있던 소스 / 모양 바꾸는 과정에서 바꿨음
